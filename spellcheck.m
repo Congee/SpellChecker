@@ -3,7 +3,7 @@
 
 #import <AppKit/AppKit.h>
 
-typedef struct {
+typedef struct SpellChecker {
 	PyObject_HEAD
 	const char *word;
 	NSSpellChecker *system_checker;
